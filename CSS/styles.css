@@ -3,17 +3,21 @@
         position:absolute;
         left:0; right:0;
         height: 180px;
+        background:yellow;
     }
     .left {
         position:absolute;
         left:0; top:180px; bottom: 0;
         width: 178px;
+        background:green;
     }
     .main {
         position: absolute;
         left:178px; top:180px; right:0; bottom:0;
+        background:blue;
     }
     .footer {
         position: fixed; bottom: 0; height: 100px;
+        background:yellow;
     }
     </style>
