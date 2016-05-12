@@ -1,23 +1,31 @@
 <style>
-    .header {
-        position:absolute;
-        left:0; right:0;
-        height: 180px;
-        background:yellow;
-    }
-    .left {
-        position:absolute;
-        left:0; top:180px; bottom: 0;
-        width: 178px;
-        background:green;
-    }
-    .main {
-        position: absolute;
-        left:178px; top:180px; right:0; bottom:0;
-        background:blue;
-    }
-    .footer {
-        position: fixed; bottom: 0; height: 100px;
-        background:yellow;
-    }
-    </style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+</style>
