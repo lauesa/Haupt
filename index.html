@@ -5,21 +5,29 @@
 <style>
 
 #center {
-    margin: auto;
+
     width: 50%;
     padding: 10px;
 }
+
+#nav {
+
+    
+
+}
+
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    width: 367px;
     overflow: hidden;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
+
 }
 
 li {
-    float: left;
+   float: left;
 }
 
 li a:hover:not(.active) {
@@ -67,16 +75,30 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.block {
-    text-align:center;
+
+.float_center {
+  float: right;
+
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
 }
+
+.child {
+  position: relative;
+  left: 25%;
+}
+
 </style>
 </head>
 <body>
 
 <h1 style="text-align: center;">Hauptbibliothek</h1>
 
-<ul>
+
+
+
+<ul class="child">
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="https://www.dropbox.com/sh/cjhj703zfpqnj2f/AADmEoHUXgR4k2KpZ1Hh4o6Ga?dl=0" target="_blank">Files</a></li>
   <li class="dropdown">
@@ -85,7 +107,7 @@ li.dropdown {
       <a href="#">Physics 2 [N/A]</a>
       <a href="#">Calculus 2 [N/A]</a>
     </div>
-<li class="dropdown">
+  <li class="dropdown">
     <a href="#" class="dropbtn">Links</a>
     <div class="dropdown-content">
       <a href="http://elearn.uta.edu" target="_blank">Blackboard</a>
@@ -94,12 +116,12 @@ li.dropdown {
       <a href="http://mail.google.com" target="_blank">Gmail</a>
       <a href="http://www.reddit.com/" target="_blank">Reddit</a>
     </div>
-    <li><a href="archive.html">Archive</a></li>
+    <li><a href="#news">Archive</a></li>
   </li>
 </ul>
-
+</div>
 <div id="center">
-<object data="https://calendar.google.com/calendar/embed?title=Schedule&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=7&amp;bgcolor=%23FFFFFF&amp;src=laue.scott%40gmail.com&amp;color=%23875509&amp;ctz=America%2FChicago" align="middle" width="800" height="600"></object>
+<object data="https://calendar.google.com/calendar/embed?title= &amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=7&amp;bgcolor=%23FFFFFF&amp;src=laue.scott%40gmail.com&amp;color=%23875509&amp;ctz=America%2FChicago" width="800" height="600"></object>
 </div>
 
 
