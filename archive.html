@@ -1,15 +1,104 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Archive</title>
+    <title>Laue</title>
+<style>
+
+#center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.block {
+    text-align:center;
+}
+</style>
 </head>
 <body>
-<h1 style="text-align: center;"><span style="font-size:20px;"><span style="font-family:tahoma,geneva,sans-serif;">Archive</span></span></h1>
 
-<hr />
-<p style="text-align: center;"><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:12px;">Courses below are archived by discipline and class number</span></span></p>
+<h1 style="text-align: center;">Hauptbibliothek</h1>
 
-<hr />
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="https://www.dropbox.com/sh/cjhj703zfpqnj2f/AADmEoHUXgR4k2KpZ1Hh4o6Ga?dl=0" target="_blank">Files</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Classes</a>
+    <div class="dropdown-content">
+      <a href="#">Physics 2 [N/A]</a>
+      <a href="#">Calculus 2 [N/A]</a>
+    </div>
+<li class="dropdown">
+    <a href="#" class="dropbtn">Links</a>
+    <div class="dropdown-content">
+      <a href="http://elearn.uta.edu" target="_blank">Blackboard</a>
+      <a href="https://sis-portal-prod.uta.edu/psp/AEPPRD/EMPLOYEE/EMPL/?&amp;cmd=login&amp;errorCode=106&amp;languageCd=ENG" target="_blank">MyMav</a>
+      <a href="http://www.outlook.com/mavs.uta.edu" target="_blank">MavMail</a>
+      <a href="http://mail.google.com" target="_blank">Gmail</a>
+      <a href="http://www.reddit.com/" target="_blank">Reddit</a>
+    </div>
+    <li><a class="active" href="#Archive">Archive</a></li>
+  </li>
+  <li><a href="articles.html">Articles</a></li>
+</ul>
+
 <p><span style="font-family:tahoma,geneva,sans-serif;">
 <h3>Fall 2015</h3>
 <a href="/archive/CSE1320.html">CSE1320 - Intermediate Programming</a><br />
@@ -22,8 +111,7 @@
 <a href="/archive/MATH2425">MATH2425 - Calculus 2</a><br />
 <a href="/archive/PHYS1444">PHYS1444 - General Technical Physics 2</a>
 
-
 <hr />
-<p style="text-align: center;"><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:12px;"><a href="http://laue.pw/index.html"><b>Main Page</b></a></span></span></p>
+
 </body>
 </html>
