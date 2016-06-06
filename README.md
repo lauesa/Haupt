@@ -1,2 +1,2 @@
-# laue.pw
+# ScottLaue.com
 Personal Website
